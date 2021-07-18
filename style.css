@@ -1,7 +1,9 @@
 /*GENERAL*/
 @font-face {
     font-family: "Raleway";
-    src: url("static/Raleway-Regular.ttf");
+    src: url("fonts/Raleway-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root{
@@ -17,7 +19,7 @@
 }
 
 body{
-    font-family: 'Raleway' , sans-serif;
+    font-family: 'Raleway' , Arial, sans-serif; 
     margin:0;
     padding: 0;
    
@@ -105,9 +107,6 @@ a {
     color: #0065FC;
 }   
 
-.color bleu clair{
-    color:
-  }
  
 .color gris{
     color:grey;
@@ -131,11 +130,12 @@ a {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 30%;
-    height: 40px;
+    height: 52px;
     border: none;
     color: white;
     outline: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .search {
@@ -143,7 +143,7 @@ a {
     display:inline-flex;
     width: 400px; 
     overflow: auto;
-    margin-top: 0.5rem
+     
   }
 
 .search::placeholder{
@@ -165,36 +165,57 @@ a {
 
 .search-result {
     display:flex;
-    
+    margin: 1rem 0 2rem 0;
+    align-items: center;
 }   
-
-.fa-info-circle {
+.search-result i {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+.fa-info {
     color: #0065FC;
     border: solid 0.0625rem #D9D9D9;
     width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 40%;
+    height: 1.6rem;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
- 
 
 /*Filtres*/
 
+
+
 .filtres {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 2rem;
+     
 }
 
+.title {
+margin-right: 20px;
+}
 .boutonfiltre {
-    display: flex;
-
+    display:flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    font-weight: bold;
 }
+
 
 .content {
     display:flex;
     align-items: center;
+   
 }
 
 .fa-money-bill-wave,
@@ -203,6 +224,13 @@ a {
 .fa-dog {
     color: #0065FC;
     font-size: 1.5em;
+    border-radius: 100%;
+    
+}
+
+h2{
+font-weight: bold;
+font-size: 1.5rem;
 }
 
 
@@ -218,48 +246,69 @@ a {
     flex-direction: column;
     width: 67%;
     background-color: #f2f2f2;
+    
 }
 .hebergements-cartes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding:2rem;
+    border-radius: 20px;
+    
 }
-.hebergement-carte{
-  border-radius: 15px;
-  width: 30%;
 
+.hebergement-carte{
+  border-radius:10px;
+  width: 30%;
+  background-color: white;
+  
+}
+
+.fas {
+    color: blue;
+    font-weight: 900;
+    
 }
 
 .photos_hebergements {
     object-fit: cover;
     width: 100%;
-    height: 112px;
+    height: 112px; 
+    border-bottom-right-radius: 10px ;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
+
+
+.hebergement_montrer_plus {
+    font-weight: bold;
+    color:black;
+    text-decoration:none ;
+    margin: 0.875rem 0 2.875rem 0;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
 
 /* PARAMETRES LES POPULAIRES */
 
 .populaires{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 30%;
-    background:#f2f2f2;
-    
+    background:#f2f2f2;  
 }
 
 .titre-populaire{
    display: flex;
    align-items: center;
    justify-content:space-between;
-    width: 100%;
-    background-color: #f2f2f2;
-    padding-bottom: 14px;
-    
+   background-color: #f2f2f2;
+   width: 100%;
 }
 
 
 .populaires-carte{
+    height: 50%;
     border: 3px solid white;
     border-radius: 20px;
     background-color: white;
@@ -267,7 +316,6 @@ a {
     max-width: 284px;
     max-height: 135px;
     margin-bottom: 29px;
-    padding-left: 20px;
     padding-right:20px ;
 
 }
@@ -275,30 +323,55 @@ a {
 .photos_populaires {
     border-radius: 15px 15px 0 0;
     object-fit: cover;
-    width: 67%;
-    height: 50px;
+    width: 57%;
+    height: 60px;
     background-size:cover ;
     background-position: center;
+
+}
+
+
+/* PARAMETRES ACTIVITES A MARSEILLE */
+
+.Titre-Activites {
+    margin-bottom: 30px;
+    margin-top: 30px ;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bloc-cartes {
+width: 100%;
+height: 200px;
+
+}   
+
+.Activites-cartes {
+    width: 45%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;  
     
 }
 
-
-/* PARAMETRES ACTIVITES A MARSEILLE  */
-
-.Titre-Activites {
-    margin-bottom: 27px;
-    font-size: large;
+.photos-activites {
+  width: 100%;
 }
 
-.Activites-cartes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
+
+h3{
+font-size:  0,9375rem;
+margin:1,25 rem 1,25 rem 0 1,25 rem; 
 }
 
 
 
+
+
+
+
+/* PARAMETRES FOOTER */
 
 
 
