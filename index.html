@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-<<<<<<< HEAD
 
-=======
->>>>>>> 9d1946831ebfe5af704859b835d45cbd47585d4a
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -94,7 +90,7 @@
                                 media="(min-width: 800px) and (max-width: 1199px)">
                             <img class="photos_hebergements"
                                 src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                alt="photos hebergements" />
+                                alt="une chambre avec un lit superposé" />
                         </picture>
 
                         <h3>Auberge la Cannebiere</h3>
@@ -111,9 +107,8 @@
                                 media="(min-width: 800px) and (max-width: 1199px)">
                             <img class="photos_hebergements"
                                 src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                alt="photos hebergements">
+                                alt="une chambre avec un lit double">
                         </picture>
-
                         <h3>Hôtel du Port</h3>
                         <p>Nuit à partir de <strong> 52€ </strong></p>
                         <i class="fas fa-star"></i>
@@ -122,9 +117,17 @@
                     </article>
 
                     <article class="hebergement-carte">
-                        <img class="photos_hebergements"
-                            src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                            alt="photos hebergements">
+                        <picture>
+                            <source srcset="images//hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                media="(min-width: 800px) and (max-width: 1199px)">
+
+                            <img class="photos_hebergements"
+                                src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="une chambre avec un lampadaire">
+                        </picture>
+
                         <h3> Hôtel Les Mouettes</h3>
                         <p>Nuit à partir de <strong> 76€ </strong> </p>
                         <i class="fas fa-star"></i>
@@ -136,7 +139,7 @@
                     <article class="hebergement-carte">
                         <img class="photos_hebergements"
                             src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                            alt="photos hebergements">
+                            alt="lit avec des rayures">
                         <h3> Hôtel de la Mer</h3>
                         <p>Nuit à partir de <strong> 46€ </strong> </p>
                         <i class="fas fa-star"></i>
@@ -177,7 +180,7 @@
 
             <div class=" populaires">
                 <div class="titre-populaire">
-                    <h2 class="texteGras">Les plus populaires</h2>
+                    <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line fa-2x"></i>
                 </div>
                 <div class="populaires-cartes">
@@ -185,12 +188,14 @@
                         <img class="photos_populaires"
                             src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="photos populaires" />
-                        <h3>Hôtel du Soleil</h3>
-                        <p>Nuit à partir de <strong> 128€ </strong></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <div class="carte-body">
+                            <h3>Hôtel du Soleil</h3>
+                            <p>Nuit à partir de <strong> 128€ </strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </article>
 
 
@@ -198,25 +203,26 @@
                         <img class="photos_populaires"
                             src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                             alt="photos populaires" />
-
-                        <h3> Au cœur de l'eau Chambres d'hôtes</h3>
-                        <p>Nuit à partir de <strong> 71€ </strong></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <div class="carte-body">
+                            <h3> Au cœur de l'eau Chambres d'hôtes</h3>
+                            <p>Nuit à partir de <strong> 71€ </strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </article>
-
-
 
                     <article class="populaires-carte">
                         <img class="photos_populaires"
                             src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                             alt="photos populaires" />
-                        <h3> Hôtel Tout bleu et Blanc</h3>
-                        <p>Nuit à partir de <strong> 68€ </strong></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <div class="carte-body">
+                            <h3> Hôtel Tout bleu et Blanc</h3>
+                            <p>Nuit à partir de <strong> 68€ </strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </article>
                 </div>
 
@@ -230,40 +236,55 @@
 
     <!--  Section Activites à Marseille  -->
 
-    <section>
+    <section class="activites">
         <div class="Titre-Activites">
             <h3>Activités à Marseille</h3>
         </div>
-        <article class="Activites-cartes">
-            <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photos-activites" />
-            <h3>Vieux Port</h3>
-        </article>
 
-        <article class="Activites-cartes">
-            <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photos-activites" />
-            <h3> Fort de Pomegues</h3>
-        </article>
+        <div id="bloc-activite">
 
-        <article class="Activites-cartes">
-            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos-activites" />
-            <h3>Ile du Frioul</h3>
-        </article>
+            <div class="activites-cartes">
+                <article class="activites-cartes1">
+                    <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                        alt="photos-activites" />
+                    <h3>Vieux Port</h3>
+                </article>
+            </div>
 
-        <article class="Activites-cartes">
-            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos-activites" />
-            <h3>Parc national des Calanques</h3>
-        </article>
+            <div class="activites-cartes">
+                <article class="activites-cartes2">
+                    <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photos-activites" />
+                    <h3> Fort de Pomegues</h3>
+                </article>
 
-        <article class="Activites-cartes">
-            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos-activites" />
-            <h3>Parc national des Calanques</h3>
-        </article>
 
-        <article class="Activites-cartes">
-            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos-activites" />
-            <h3>Parc national des Calanques</h3>
-        </article>
+                <article class="activites-cartes3">
+                    <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" photos-activites" />
+                    <h3>Ile du Frioul</h3>
+                </article>
+            </div>
 
+            <div class="activites-cartes">
+                <article class="activites-cartes1">
+                    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                        alt="photos-activites" />
+                    <h3>Parc National des Calanques</h3>
+                </article>
+            </div>
+
+            <div class="activites-cartes">
+                <article class="activites-cartes3">
+                    <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                        alt="photos-activites" />
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                </article>
+
+                <article class="activites-cartes2">
+                    <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photos-activites" />
+                    <h3>Parc Longchamp</h3>
+                </article>
+            </div>
+        </div>
 
     </section>
 
@@ -271,36 +292,28 @@
 
     <!-- DEBUT FOOTER-->
     <footer>
-        <div class="Titres Footer">
-            <h3> A propos</h3>
-            <h3></h3>
-            <h3></h3>
+        <div class="Footer">
+            <div class="footer-bloc">
+                <ul>
+                    <li class="title">A propos</li>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+                <ul>
+                    <li class="title">Nos hébergements</li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+                <ul>
+                    <li class="title">Assistance</li>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="mailto:anado@example.com">Nous contacter</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- FIN FOOTER -->
 </body>
 
-=======
-    <link rel="stylesheet" href="reservia.css"
-
-
-</head>
-
-<body>
-    <main class="container">
-        <!--Header-->
-        <header>
-            <div id="logo">
-                <img src="images/logo/Reservia@3x.png" 
-                alt="Logo de Reservia" 
-                width="120px"
-                height="50px" 
-                />
-            </div>
-            <div><a href="#">Hébergements</a> </div>
-            <div><a href="#">Activités</a></div>
-            <div><a href="#">S'inscrire</a></div>
-    <nav>
-</body>
->>>>>>> 9d1946831ebfe5af704859b835d45cbd47585d4a
 </html>
