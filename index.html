@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width:769px) and (max-width:1280px)" href="css/tablette.css" />
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/smartphone.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +21,7 @@
             <img src="./images/logo/Reservia@3x.png" class="logo" alt="Logo reservia">
         </a>
         <nav class="navbar">
-            <a href="#hebergements" class="nav-link active">Hebergements</a>
+            <a href="#hebergements" class="nav-link">Hebergements</a>
             <a href="#activite" class="nav-link ">Activites</a>
             <a class="headersignup" href="#">S'inscrire</a>
         </nav>
@@ -82,23 +84,25 @@
                     <H2>Hebergements à Marseille</H2>
                 </div>
                 <div class="hebergements-cartes">
-                    <article class="hebergement-carte">
-                        <picture>
-                            <source srcset="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                media="(min-width: 1200px)">
-                            <source srcset="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                media="(min-width: 800px) and (max-width: 1199px)">
-                            <img class="photos_hebergements"
-                                src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                alt="une chambre avec un lit superposé" />
-                        </picture>
+                    <a href="#" class="hebergement-carte">
+                        <article>
+                            <picture>
+                                <source srcset="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    media="(min-width: 1200px)">
+                                <source srcset="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    media="(min-width: 800px) and (max-width: 1199px)">
+                                <img class="photos_hebergements"
+                                    src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    alt="une chambre avec un lit superposé" />
+                            </picture>
 
-                        <h3>Auberge la Cannebiere</h3>
-                        <p>Nuit à partir de <strong> 25€ </strong></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </article>
+                            <h3>Auberge la Cannebiere</h3>
+                            <p>Nuit à partir de <strong> 25€ </strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </article>
+                    </a>
                     <article class="hebergement-carte">
                         <picture>
                             <source srcset="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
@@ -137,15 +141,17 @@
 
                     </article>
                     <article class="hebergement-carte">
-                        <img class="photos_hebergements"
-                            src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                            alt="lit avec des rayures">
-                        <h3> Hôtel de la Mer</h3>
-                        <p>Nuit à partir de <strong> 46€ </strong> </p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <a href="#">
+                            <img class="photos_hebergements"
+                                src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                alt="lit avec des rayures">
+                            <h3> Hôtel de la Mer</h3>
+                            <p>Nuit à partir de <strong> 46€ </strong> </p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
                     </article>
                     <article class="hebergement-carte">
                         <img class="photos_hebergements"

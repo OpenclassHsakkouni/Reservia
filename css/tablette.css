@@ -1,0 +1,23 @@
+h1{
+    color:black;
+}
+
+.hebergementsEtPopulaire {
+    flex-direction: column;
+}
+
+.populaires {
+    width: 100%;
+}
+
+.hebergements {
+    width:100%;
+}
+
+.populaires-cartes{
+    display : flex;
+}
+
+.populaires-carte {
+    width : 50%;
+}
