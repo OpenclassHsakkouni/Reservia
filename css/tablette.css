@@ -19,5 +19,15 @@ h1{
 }
 
 .populaires-carte {
-    width : 50%;
+    width : 40%;
+}
+
+#conteneur-logo{
+    width: 130px;
+}
+
+.populaires-cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
