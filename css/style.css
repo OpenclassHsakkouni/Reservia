@@ -12,7 +12,7 @@
     font-style: normal;
 }
 img{
-    width:100%;
+    width:30%;
 }
 a:visited, a:focus{
     color: black;
@@ -36,6 +36,11 @@ a:visited, a:focus{
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
+main{
+display:block;
+padding: 0px 32px; 
+} 
 
 body{
     font-family: 'raleway', Arial, Helvetica, sans-serif;
@@ -496,11 +501,6 @@ footer{
 }
 
 
-/* Partie Responsive */
 
-/*  Responsive Mobiles */
-
-/*  Responsive Tablette  */
     
     
-
