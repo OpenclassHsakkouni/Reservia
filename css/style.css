@@ -12,7 +12,7 @@
     font-style: normal;
 }
 img{
-    width:30%;
+    width:40%;
 }
 a:visited, a:focus{
     color: black;
@@ -58,7 +58,7 @@ body{
 
 
 .headersignup{
-    color: #0065FC !important;
+    color:blue !important;
     margin-right:3px;
     padding:2rem; 
     font-weight: bold;
@@ -194,7 +194,7 @@ h3
     
 } 
 .fa-info {
-    color: #0065FC;
+    color:blue;
     border: solid 0.0625rem #D9D9D9;
     width: 2rem;
     height: 2rem;
@@ -217,7 +217,7 @@ h3
 }
 
 .title {
-margin-right: 20px;
+margin-right: 30px;
 font-size: 1.25em;
 font-family: "Raleway-Bold";
 }
@@ -273,8 +273,7 @@ font-family: "Raleway-Bold";
     flex-direction: column;
     width: 67%;
     background-color: #f2f2f2;
-    
-    
+    border-radius: 20px;   
 }
 .hebergement-title1, .hebergements-cartes, .hebergement_montrer_plus{
     width: 95%;
@@ -330,6 +329,7 @@ font-family: "Raleway-Bold";
 .populaires{
     width: 30%;
     background:#f2f2f2;  
+    border-radius: 20px;
 }
 
 .titre-populaire{
@@ -346,6 +346,11 @@ font-family: "Raleway-Bold";
   
 }
 
+.fas.fa-star.gray{
+
+	color: #dcdcdc;
+}
+
 .populaires-carte{
     border: 5px solid white;
     border-radius: 25px;
@@ -355,26 +360,34 @@ font-family: "Raleway-Bold";
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
+    padding-left: 15px;
 
 }
 
 
 .photos_populaires {
-    border-radius: 15px 0 0 15px ;
+    border-radius: 20px 0px 0px 20px;;
     object-fit: cover;
     border-style: none;
-    max-width: 40%;
-    height: 134px;
+    max-width: 25%;
+    height: 135px;
     background-size:cover ;
     background-position: center;
+    
 }
 
 .carte-body{
-   width: 100%;
-   height: 100%;
+   width: 70%;
    border-radius: 1.5rem;
-      
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-content: flex-start;
+   align-items: flex-start;
+   height: 150px;
+
 }    
+
 
 
 /* PARAMETRES ACTIVITES A MARSEILLE */
@@ -405,17 +418,15 @@ h3{
 }
 
 
-
 .activites-cartes {
     width:21%;
     display: flex;
     flex-direction: column;
-    height: 550px;
     justify-content: space-between;
 }
 
 .activites-cartes1 {
-
+    height: 446px;
     box-shadow: 0 0 16px #0000002e;
     border-radius: 15px;
     
@@ -424,35 +435,34 @@ h3{
 .activites-cartes1, .activites-cartes2, .activites-cartes3, .activites-cartes4{
     box-shadow: 0 0 10px #0000002e;
     border-radius: 15px;
-    overflow: hidden;
     height: auto;
     margin-bottom: 15px;
 } 
 
 .activites-cartes1 img {
-    height: 500px;
+    height: 390px;
     width: 100%;
     object-fit: cover;
     border-style: none;
-   
+    border-radius: 20px 20px 0 0;
 }
 
 .activites-cartes2{
-    height: 220px;
+    height: 237px;
     width: 100%;
     border-radius: 15px;
 }
 
 .activites-cartes2 img {
-    height: 205px; 
+    height: 180px; 
     width: 100%;
     object-fit: cover;
     border-style: none;
- 
+    border-radius: 20px 20px 0 0;
 }
 
 .activites-cartes3{
-    height: 200px;
+    height: 164px;
     width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 20px #0000002e;
@@ -460,10 +470,10 @@ h3{
 }
 
 .activites-cartes3 img {
-    height: 135px; 
+    height: 110px; 
     width: 100%;
     object-fit: cover;
-    border-radius: 25px 25px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 /* PARAMETRES FOOTER */
