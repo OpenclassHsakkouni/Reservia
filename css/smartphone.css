@@ -1,7 +1,13 @@
+
+
+main{
+    padding: 0px;
+}
+
 .headersignup {
     position: absolute;
-    top: -14px;
-    right: -35px;
+    top: 30px;
+    right: 20px;
 }
 
 .logo{
@@ -17,12 +23,16 @@
     flex-direction: column;
 }
 
+.h2{
+  font-size: 21px;
+}
+
 #conteneur-logo{
-    width: 150px;
+    width: 100px;
 }
 
 .nav-link {
-    margin-top:20px;
+    padding-top:20px;
     padding-bottom: 10px;
     font-weight: 500;
     text-align: center;
@@ -50,31 +60,66 @@
 .hebergements {
     flex-direction: column;
     width: auto;
+    padding-top: 25px;
 }
-
+.hebergement-title1, .hebergements-cartes {
+    width: 90%;
+}
 .hebergement-carte {
     width: 100%;
 }
 
 .populaires{
-width : auto;
-order:1;
+    width : auto;
+    order:1;
+    padding: 20px 0 30px 0;
+    border-radius: 0;
+}
+
+
+.populaires-carte{
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: white;
+    margin: auto;
+    height: 140px;
+    display: flex;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.carte-body {
+    width: 60%;
+}
+.photos_populaires {
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    border-style: none;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .activites {
     padding: 0;
-    margin: 4rem 0;
+    margin:  0;
 }
-
+.Titre-Activites {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+}
 #bloc-activite {
     flex-direction: column;
-    margin: 0 15px;
+    margin: auto;
+    width:90%
 }
 
 .activites-cartes {
     width: auto;
     height: auto;
     display: block;
+    flex-direction: column;
 }
 
 .activites-cartes img{
@@ -93,9 +138,53 @@ order:1;
     flex-direction : column;
 }
 
+.section-header {
+    width: 90%;
+    margin: auto;
+}
+
 .search {
-    width: auto;
-    
+    width: 90%;
+    margin: 25px auto;
+    position: relative;
+}
+
+#input-search{
+    outline-width: 0;
+    color:black;
+    border:1px solid #F2F2F2;
+    width : 100%;
+}
+.rechercher {
+    width: 45px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+}
+.rechercher span {
+    display: none;
+}
+.rechercher i {
+    color: #FFF;
+}
+.search-result {
+    display:flex;
+    align-items: center;
+    margin:auto;
+    width: 90%;
+}
+
+.filtres {
+    width: 90%;
+    margin: 20px;
+}
+
+.boutonfiltre {
+    font-size: 16px;
+}
+.fa-money-bill-wave, .fa-male, .fa-heart, .fa-dog {
+    height: 2.8125rem;
+    width: 2.8125rem;
 }
 
 .hebergements{
@@ -105,3 +194,8 @@ order:1;
 .title{
     margin-bottom: 20px;
   }
+
+  .footer-bloc ul {
+    width: 100%;
+    margin-top: 35px;
+}

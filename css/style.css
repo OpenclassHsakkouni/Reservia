@@ -1,4 +1,5 @@
 /*GENERAL*/
+/*
 @font-face {
     font-family: "Raleway";
     src: url("fonts/Raleway-Regular.ttf");
@@ -10,9 +11,9 @@
     src: url("fonts/Raleway-Bold.ttf");
     font-weight: normal;
     font-style: normal;
-}
+}*/
 img{
-    width:30%;
+    width:100%;
 }
 a:visited, a:focus{
     color: black;
@@ -38,7 +39,7 @@ a:visited, a:focus{
 }
 
 body{
-    font-family: 'raleway', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin:0;
         
 }  
@@ -60,9 +61,10 @@ main{
 .headersignup{
     color:#0065FC !important;
     margin-right:3px;
-    padding:2rem; 
     font-weight: bold;
     border-top: 5px solid transparent;
+    display: flex;
+    align-items: center;
 }
 
 .navbar{
@@ -70,7 +72,7 @@ main{
 }
 
 #conteneur-logo{
-    width : 300px
+    width : 100px
 }
 
 .nav-link{
@@ -109,7 +111,8 @@ h1,
 h2,
 h3
 {
-    font-family: "Raleway-Bold";
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
  
@@ -160,7 +163,7 @@ h3
 }
 
 .search {
-    display:inline-flex;
+    display:flex;
     width: 400px; 
     overflow: auto;
     margin-bottom: 9px;
@@ -226,7 +229,7 @@ h3
 .title {
 margin-right: 30px;
 font-size: 1.25em;
-font-family: "Raleway-Bold";
+font-family: "Raleway";
 }
 
 .boutonfiltre {
